@@ -15,13 +15,13 @@ class NormalParticle
 }
 interface Particle
 {
-  //your code here
+  
 }
 class OddballParticle //uses an interface
 {
-  //your code here
+  
 }
 class JumboParticle //uses inheritance
 {
-  //your code here
+ 
 }
