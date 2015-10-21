@@ -1,3 +1,8 @@
+void setup()
+{
+  
+}
+
 void draw()
 {
  
@@ -5,7 +10,7 @@ void draw()
 class NormalParticle
 {
   int ncolor;
-  double x,y,speed angle;
+    double x,y,speed,angle;
 
   NormalParticle()
     {
@@ -15,14 +20,14 @@ class NormalParticle
       speed=1;
       angle=1;
     }
-     void move()
+     public void move()
       {
        x+=(Math.cos(angle)*speed);
        y+=(Math.sin(angle)*speed);
       }
-      void show{}
+      public void show()
       {
-       
+       fill(ncolor);
       }
  
 }
