@@ -29,7 +29,7 @@ class NormalParticle  implements Particle
         X=50;
         Y=50;
   Angle = Math.random()*100;
-  Speed = Math.random()*1;
+  Speed = Math.random()*10;
   
   colors = (int)(Math.random()*255);
     colors2 = (int)(Math.random()*255);
@@ -95,6 +95,6 @@ class JumboParticle extends NormalParticle
       colors = (int)(Math.random()*255);
       colors2 = (int)(Math.random()*255);
       colors3 = (int)(Math.random()*255);
-      sise= 20;
+      sise= 30;
   }
 }
