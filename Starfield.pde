@@ -25,11 +25,11 @@ class NormalParticle  implements Particle
   int sise;
   double X, Y, Angle, Speed; 
     NormalParticle(){
-    sise=5;
+    sise=10;
         X=50;
         Y=50;
   Angle = Math.random()*100;
-  Speed = Math.random()*10;
+  Speed = Math.random()*1;
   
   colors = (int)(Math.random()*255);
     colors2 = (int)(Math.random()*255);
