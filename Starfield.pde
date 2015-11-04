@@ -94,6 +94,6 @@ class JumboParticle extends NormalParticle
   colors = (int)(Math.random()*255);
   colors2 = (int)(Math.random()*255);
   colors3 = (int)(Math.random()*255);
-  sise= 30;
+  sise= 50;
 }
 }
